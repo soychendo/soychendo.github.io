@@ -1,14 +1,9 @@
 .Home {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  left: 0;
   width: 100%;
-  margin: auto;
-  transform: translateY(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
+  height: calc(100% - 3rem);
 }
 .content-top-icon {
   margin-bottom: 40px;
@@ -44,6 +39,14 @@
   box-shadow: 0 0 1px 7px rgba(255, 255, 255, 0.1), 0 0 1px 13px rgba(255, 255, 255, 0.1);
   animation: $anima;
   opacity: 0;
+}
+.cirdown i {
+  transition: .3s ease-in-out;
+}
+.cirdown > a:hover i {
+  border-radius: 50%;
+  border: 0px solid rgba(1, 245, 140, 0.1);
+  box-shadow: 0 0 1px 7px rgba(17, 255, 0, 0.1), 0 0 1px 13px rgba(63, 133, 39, 0.1);
 }
 @keyframes animate {
   0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
@@ -146,6 +149,10 @@
 .icono {
   padding: .5em;
   border-radius: 50% !important;
+  transition: .3s ease-in-out;
+}
+.icono:hover {
+  color: $green;
 }
 .fa-youtube::before {
   font-size: 28px !important;
