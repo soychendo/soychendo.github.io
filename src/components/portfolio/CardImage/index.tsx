@@ -6,7 +6,7 @@ const CardImage = ( { data }: CardProps ): JSX.Element => {
 
   return (
     <img
-      src={`https://soychendo.com/developer/assets/${data.image}`}
+      src={`assets/${data.image}`}
       className="Card_img_top"
       alt={data.title}
     />
