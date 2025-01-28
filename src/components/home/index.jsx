@@ -12,7 +12,7 @@ const Home = () => {
 
   return(
     <main onLoad={init} className="container-menu">
-      <div  className="map"><img src={Mapa} alt="Background Image - @soychendo" /></div>
+      {/* <div  className="map"><img src={Mapa} alt="Background Image - @soychendo" /></div> */}
       <Bartitle textBar={home} />
       <div className="grid-menu mb-4 Home">
         <Description />
