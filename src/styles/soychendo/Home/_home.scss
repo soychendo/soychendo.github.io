@@ -97,8 +97,16 @@
   justify-content: center;
   height: 100%;
 }
+.container-type .myname {
+  color: $color-three;
+}
+.container-type small {
+  color: $green;
+  font-size: 20px;
+}
 .container-type span {
   font-weight: bold;
+  color: $green;
 }
 .container-type .hello {
   font-size: 1.5em;
@@ -126,10 +134,6 @@
     font-size: 1em;
   }
 }
-.container-type small {
-  color: $color-gray;
-  font-size: 1em;
-}
 .container-type p {
   margin-block-start: 0;
   margin-block-end: 2em;
@@ -148,7 +152,7 @@
 }
 .txt-type > .txt::after {
   content: '|';
-  color: $color-three;
+  color: $green;
   animation: 1s animated infinite;
 }
 @keyframes animated {
