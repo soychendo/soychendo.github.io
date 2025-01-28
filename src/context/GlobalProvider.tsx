@@ -87,7 +87,7 @@ const GlobalProvider = ({children}: GlobalProviderTypes ) => {
           this.messageNotification('Tu mensaje ha sido enviado correctamente');
           setLoading(false)
           setTimeout(() => {
-            window.location.href = 'https://soychendo.com/developer'
+            window.location.href = 'https://soychendo.com'
           }, 3000);
         } else {
           setSuccess(false)

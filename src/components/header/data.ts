@@ -1,7 +1,7 @@
 
 export const links = [
   {
-    to: "/developer",
+    to: "/",
     text: "Home",
     isActive: true,
     isPending: false,
@@ -25,7 +25,7 @@ export const links = [
     isPending: false,
   },
   {
-    to: "https://github.com/soychendo/developer",
+    to: "https://github.com/soychendo/soychendo.github.io",
     text: "Code",
     isActive: false,
     isPending: false,

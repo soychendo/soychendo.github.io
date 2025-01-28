@@ -9,7 +9,7 @@ This is my official website, which I share with the entire community, if you lik
 - [Git](https://git-scm.com/downloads)
 
 ```
-git clone git@github.com:soychendo/developer.git
+git clone git@github.com:soychendo/soychendo.github.io.git
 cd soychendo.github.io
 ```
 

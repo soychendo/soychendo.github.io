@@ -6,12 +6,12 @@ export const database: DataBase[] = [
     technologies: [
       {
         name: 'TypeScript',
-        stack: 'https://soychendo.com/developer/assets/typescript.png',
+        stack: 'assets/typescript.png',
         docs: 'https://www.typescriptlang.org/docs/',
       },
       {
         name: 'ReactJs',
-        stack: 'https://soychendo.com/developer/assets/reactjs.webp',
+        stack: 'assets/reactjs.webp',
         docs: 'https://react.dev/',
       },
     ],
@@ -27,22 +27,22 @@ export const database: DataBase[] = [
     technologies: [
       {
         name: 'Html',
-        stack: 'https://soychendo.com/developer/assets/html.png',
+        stack: 'assets/html.png',
         docs: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
       },
       {
         name: 'Sass',
-        stack: 'https://soychendo.com/developer/assets/sass.png',
+        stack: 'assets/sass.png',
         docs: 'https://sass-lang.com/documentation/',
       },
       {
         name: 'ReactJs',
-        stack: 'https://soychendo.com/developer/assets/reactjs.webp',
+        stack: 'assets/reactjs.webp',
         docs: 'https://react.dev/',
       },
       {
         name: 'TypeScript',
-        stack: 'https://soychendo.com/developer/assets/typescript.png',
+        stack: 'assets/typescript.png',
         docs: 'https://www.typescriptlang.org/docs/',
       },
     ],
@@ -58,17 +58,17 @@ export const database: DataBase[] = [
     technologies: [
       {
         name: 'Html',
-        stack: 'https://soychendo.com/developer/assets/html.png',
+        stack: 'assets/html.png',
         docs: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
       },
       {
         name: 'Css',
-        stack: 'https://soychendo.com/developer/assets/css.png',
+        stack: 'assets/css.png',
         docs: 'https://developer.mozilla.org/es/docs/Web/CSS',
       },
       {
         name: 'JavaScript',
-        stack: 'https://soychendo.com/developer/assets/javascript.png',
+        stack: 'assets/javascript.png',
         docs: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
       },
     ],
@@ -84,22 +84,22 @@ export const database: DataBase[] = [
     technologies: [
       {
         name: 'Html',
-        stack: 'https://soychendo.com/developer/assets/html.png',
+        stack: 'assets/html.png',
         docs: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
       },
       {
         name: 'Sass',
-        stack: 'https://soychendo.com/developer/assets/sass.png',
+        stack: 'assets/sass.png',
         docs: 'https://sass-lang.com/documentation/',
       },
       {
         name: 'ReactJs',
-        stack: 'https://soychendo.com/developer/assets/reactjs.webp',
+        stack: 'assets/reactjs.webp',
         docs: 'https://react.dev/',
       },
       {
         name: 'TypeScript',
-        stack: 'https://soychendo.com/developer/assets/typescript.png',
+        stack: 'assets/typescript.png',
         docs: 'https://www.typescriptlang.org/docs/',
       },
     ],
@@ -115,17 +115,17 @@ export const database: DataBase[] = [
     technologies: [
       {
         name: 'Html',
-        stack: 'https://soychendo.com/developer/assets/html.png',
+        stack: 'assets/html.png',
         docs: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
       },
       {
         name: 'Css',
-        stack: 'https://soychendo.com/developer/assets/css.png',
+        stack: 'assets/css.png',
         docs: 'https://developer.mozilla.org/es/docs/Web/CSS',
       },
       {
         name: 'JavaScript',
-        stack: 'https://soychendo.com/developer/assets/javascript.png',
+        stack: 'assets/javascript.png',
         docs: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
       },
     ],
@@ -141,17 +141,17 @@ export const database: DataBase[] = [
     technologies: [
       {
         name: 'Html',
-        stack: 'https://soychendo.com/developer/assets/html.png',
+        stack: 'assets/html.png',
         docs: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
       },
       {
         name: 'Css',
-        stack: 'https://soychendo.com/developer/assets/css.png',
+        stack: 'assets/css.png',
         docs: 'https://developer.mozilla.org/es/docs/Web/CSS',
       },
       {
         name: 'JavaScript',
-        stack: 'https://soychendo.com/developer/assets/javascript.png',
+        stack: 'assets/javascript.png',
         docs: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
       },
     ],
@@ -167,17 +167,17 @@ export const database: DataBase[] = [
     technologies: [
       {
         name: 'Html',
-        stack: 'https://soychendo.com/developer/assets/html.png',
+        stack: 'assets/html.png',
         docs: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
       },
       {
         name: 'Css',
-        stack: 'https://soychendo.com/developer/assets/css.png',
+        stack: 'assets/css.png',
         docs: 'https://developer.mozilla.org/es/docs/Web/CSS',
       },
       {
         name: 'JavaScript',
-        stack: 'https://soychendo.com/developer/assets/javascript.png',
+        stack: 'assets/javascript.png',
         docs: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
       },
     ],
@@ -193,17 +193,17 @@ export const database: DataBase[] = [
     technologies: [
       {
         name: 'Html',
-        stack: 'https://soychendo.com/developer/assets/html.png',
+        stack: 'assets/html.png',
         docs: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
       },
       {
         name: 'Css',
-        stack: 'https://soychendo.com/developer/assets/css.png',
+        stack: 'assets/css.png',
         docs: 'https://developer.mozilla.org/es/docs/Web/CSS',
       },
       {
         name: 'JavaScript',
-        stack: 'https://soychendo.com/developer/assets/javascript.png',
+        stack: 'assets/javascript.png',
         docs: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
       },
     ],
