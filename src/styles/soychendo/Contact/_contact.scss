@@ -1,0 +1,178 @@
+/*<----------Form Contact------------>*/
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px rgb(19, 19, 19) inset !important; }
+input:-webkit-autofill { -webkit-text-fill-color: rgb(255, 255, 255);}
+/* color */
+/*<------Contact----->*/
+@media (max-width: 575px) {
+  .container-contact {
+    margin: .1em;
+    padding: .1em;
+  }
+}
+.container-contact span {
+  font-size: 1rem;
+  color: $color-a;
+}
+.container-contact span:last-child {
+  font-size: 1rem;
+  color: $color-f;
+}
+.container-contact .correo {
+  font-size: 1em;
+  color: $color-a;
+  font-weight: normal;
+}
+.container-contact i {
+  padding: .7em;
+  font-size: 1em;
+  color: $color-three;
+}
+.container-contact p {
+  font-size: 1rem;
+  color: $color-a;
+}
+.cont-text {
+  display: flex;
+  align-items: center;
+}
+.cont-text a {
+  color: $color-a;
+  font-size: 1em;
+  padding: .3em;
+}
+
+.cont-svg {
+  border-radius: 50%;
+  padding: .03em;
+  margin-top: .5em;
+}
+.cont-svg img {
+ width: 1.3rem;
+ height: 1.3rem;
+ margin: .54em;
+}
+.cont-form {
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+  height: 100%;
+}
+@media (max-width: 604px) {
+  .cont-form {
+    width: 100%;
+  }
+}
+#form {
+  display: flex;
+  flex-direction: column;
+}
+input, textarea {
+  font-size: 1rem;
+  font-family: $font-second;
+  padding: .5rem;
+  margin: .1em;
+  color: #fff;
+  background-color: $color;
+  outline: none;
+  user-select: contain;
+  border: none;
+  border-bottom: 1px solid $color;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  resize: none;
+  height: 200px !important;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  textarea {
+    height: 80px;
+}
+}
+.cont-form .btn {
+  width: 140px;
+  align-self: flex-end;
+  cursor: pointer;
+  margin: .7em .1em 0;
+}
+/*<-------Form Control-------->*/
+.form-control {
+	position: relative;
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 768px) {
+  .form-control {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+.form-control input {
+	outline: 1px solid $body;
+  outline: none;
+	width: 100%;
+}
+
+.form-control.success input {
+	border-color: $success;
+}
+
+.form-control.error input {
+	border-color: $error;
+}
+.form-control small {
+	color: $error;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: .01em;
+	visibility: hidden;
+}
+.form-control.error small {
+	visibility: visible;
+}
+.messageAndSubmit {
+  display: flex;
+  justify-content: flex-end;
+}
+.messageAndSubmit img {
+  width: 25px;
+  height: 25px;
+}
+.messageAndSubmit button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #42d392;
+  border: none;
+  color: #191919;
+  &:hover {
+    background-color: #2ca36e;
+    color: #191919;
+  }
+  &:disabled {
+    opacity: .3;
+  }
+}
+#form small {
+  font-size: 1em;
+  color: $error;
+  padding-bottom: 1rem;
+}
+.succes {
+  color: $succes !important;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px hsla(160, 100%, 50%, 80%);
+}

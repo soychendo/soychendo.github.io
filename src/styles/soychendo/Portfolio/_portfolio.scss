@@ -1,0 +1,114 @@
+/*<-------Portfolio------------>*/
+/*justificar texto*/
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+	.col-md-4 p {
+		text-align: justify;
+		-webkit-hyphens: auto; /* A día de hoy aún es necesario el prefijo para soportar a Safari */
+		hyphens: auto;
+	}
+}
+.Portfolio {
+  max-width: calc(100% - 17%);
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  left: 17%;
+  padding-top: 5.5rem;
+}
+@media (max-width: 991px) {
+  .Portfolio {
+      width: 100%;
+      max-width: 100%;
+      position: relative;
+      left: 0;
+  }
+}
+.Card_menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: .7em;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+@media (min-width: 991px) {
+  .Card_menu  {
+      display: flex;
+      flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .Card_menu  {
+      margin-bottom: 50px;
+  }
+}
+.Card_body p {
+    text-align: center;
+}
+.source-code {
+    pointer-events: all;
+}
+@media (max-width: 575px) {
+    .Card:hover {
+        pointer-events:none;
+        touch-action: none;
+    }
+}
+.Card_img_top {
+    border-radius: 0;
+}
+.Card .Card_buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Card .Card_buttons a {
+  width: 100%;
+  text-align: center;
+  padding: .5rem;
+  background-color: $color;
+  outline: none;
+  color: $color-three;
+  border-top: 1px solid $body;
+  cursor: pointer;
+}
+.Card .Card_buttons a:first-child {
+  border-right: 1px solid $body;
+}
+.Card .Technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card .Technologies {
+  width: 100%;
+  height: 30px;
+}
+.Card .Technologies a {
+  margin-top: 1rem;
+  margin-left: 4px;
+  background: $color-tech;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card .Technologies img {
+  width: 25px;
+  height: 25px;
+  padding: 0.1rem;
+  cursor: pointer;
+}
+.transition {
+  transition: all .2s ease-out;
+}
+@media (min-width: 768px) {
+  .transition:hover {
+    transform: scale(1.03,1.03);
+    border: none;
+  }
+}
+
+
