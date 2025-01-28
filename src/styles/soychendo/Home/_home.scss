@@ -43,6 +43,14 @@
   animation: $anima;
   opacity: 0;
 }
+.cirdown i {
+  transition: .3s ease-in-out;
+}
+.cirdown > a:hover i {
+  border-radius: 50%;
+  border: 0px solid rgba(1, 245, 140, 0.1);
+  box-shadow: 0 0 1px 7px rgba(17, 255, 0, 0.1), 0 0 1px 13px rgba(63, 133, 39, 0.1);
+}
 @keyframes animate {
   0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
   50% {opacity: 1.0;}
@@ -168,9 +176,18 @@
   color: $color-three;
   font-size: 1.5em;
   text-align: center;
+  cursor: pointer;
   width: 2em;
   height: 2em;
   position: relative;
   z-index: 99;
+}
+.icono {
+  padding: .5em;
+  border-radius: 50% !important;
+  transition: .3s ease-in-out;
+}
+.icono:hover {
+  color: $green;
 }
 /*<-------------radar ------------>*/
