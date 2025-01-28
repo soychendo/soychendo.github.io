@@ -3,8 +3,6 @@ import {
   ContainerSkeleton,
   CardWrapper,
   CardImage,
-  CardTechnologies,
-  ChildTechnology,
   CardDescription,
   CardButtons
 } from './styles'
@@ -20,11 +18,6 @@ export const CardSkeleton = (): JSX.Element => {
     <ContainerSkeleton>
       <CardWrapper>
         <CardImage />
-        <CardTechnologies >
-          <ChildTechnology />
-          <ChildTechnology />
-          <ChildTechnology />
-        </CardTechnologies>
         <CardDescription />
         <CardButtons />
       </CardWrapper>

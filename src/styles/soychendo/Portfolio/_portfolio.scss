@@ -71,6 +71,10 @@
   color: $color-three;
   border-top: 1px solid $body;
   cursor: pointer;
+  transition: .3s ease-in-out;
+}
+.Card .Card_buttons a:hover {
+  color: $green;
 }
 .Card .Card_buttons a:first-child {
   border-right: 1px solid $body;

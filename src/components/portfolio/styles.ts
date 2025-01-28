@@ -39,21 +39,7 @@ export const CardImage = styled.div`
   height: 225px;
   overflow: hidden;
 `
-export const CardTechnologies = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 30px;
-  ${() => css`${skeletonStyle()}`}
-`
-export const ChildTechnology = styled.div`
-  background-color: #191919;
-  width: 30px;
-  height: 30px;
-  margin-left: 4px;
-  border-radius: 50%;
-`;
+
 export const CardTitle = styled.div`
   text-align: center;
   color: #fff;
