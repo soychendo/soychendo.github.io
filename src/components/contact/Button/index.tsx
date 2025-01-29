@@ -11,7 +11,7 @@ export const Button = ({ loading, Gif }: ButtonType): JSX.Element => {
     <button
       disabled={loading}
       type="submit"
-      className="btn btn-chendo btn-block mb-4"
+      className="btn btn-chendo btn-block mb-4 btn-contact"
     >
       {loading ? <img src={Gif} width="32" height="32" /> : 'Enviar'}
     </button>

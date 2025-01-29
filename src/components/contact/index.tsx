@@ -19,7 +19,7 @@ const Contact = (): JSX.Element => {
                 <div className="cont-svg">
                   <img src={TelegramImage} className="img-svg" alt="svg-telegram" />
                 </div>
-                <a href="https://t.me/soychendo" target="_blank">@soychendo</a>
+                <a href="https://t.me/chendoec" target="_blank">@chendoec</a>
               </div>
               <p>Sientete libre de preguntar cuanto necesites. Te contestaré lo antes posible.</p>
             </div>
