@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { MenuSocialDiv } from "./styles";
+import { MenuSocialDiv, ContainerHeader } from "./styles";
 
 const MenuSocial = (): JSX.Element => {
 
@@ -13,11 +13,11 @@ const MenuSocial = (): JSX.Element => {
 
   return(
     <MenuSocialDiv className="menu-social">
-      <div>
+      <ContainerHeader className="menu-header">
         <a href="https://www.youtube.com/@iamchendo" aria-label="youtube" target="_blank"><i className="fab fa-youtube"></i></a>
         <a href="https://www.facebook.com/soychendo" aria-label="facebook" target="_blank"><i className="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/chendospertus" aria-label="instagram" target="_blank"><i className="fab fa-instagram"></i></a>
-      </div>
+      </ContainerHeader>
       <footer>Copyright @ {date}</footer>
     </MenuSocialDiv>
   );

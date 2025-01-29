@@ -135,17 +135,18 @@ scrollbar-color: $color-a $body !important;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #42d392;
+  background: #2b8f62;
   font-weight: bold;
   width: 7em;
-  color: $color;
+  color: white;
   letter-spacing: .09em;
   margin-left: .6rem;
   transition: background .1s ease-in-out;
   border: none;
+  padding: 0 4em !important;
 }
 .btn_home .btn-ev:hover {
-  background: #2ca36e;
+  background: #258a5c;
 }
 /*<------------End Main G------------->*/
 /*<-------add v -mobile------->*/

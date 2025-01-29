@@ -38,3 +38,9 @@ export const MenuSocialDiv = styled.div`
     }
   }
 `;
+export const ContainerHeader = styled.div`
+ @media (max-width: 991px) {
+    display: flex;
+    flex-direction: column;
+  }
+`
