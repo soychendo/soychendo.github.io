@@ -12,16 +12,8 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     text-rendering: optimizeLegibility;
     -webkit-touch-callout: none;
-    user-select: none;
   }
-  ::selection {
-      background: #191919;
-      color: #fff;
-  }
-  ::-moz-selection {
-      background: #191919;
-      color: #fff;
-  }
+
   html {
     font-family: sans-serif;
     line-height: 1.15;

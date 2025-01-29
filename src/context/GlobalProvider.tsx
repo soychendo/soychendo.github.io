@@ -78,7 +78,7 @@ const GlobalProvider = ({children}: GlobalProviderTypes ) => {
         if(this.validate()) {
           setLoading(true)
           axios.defaults.headers.post['Content-Type'] = 'application/json';
-          await axios.post('https://formsubmit.co/ajax/chendoec@live.com', {
+          await axios.post('https://formsubmit.co/ajax/chendodiesel@gmail.com', {
             name: this.name,
             email: this.email,
             message: this.message
