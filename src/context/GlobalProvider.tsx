@@ -17,6 +17,10 @@ const GlobalProvider = ({children}: GlobalProviderTypes ) => {
   const [input, setInput] = useState<ContactForm>(initialState);
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
+   const [date, setDate] = useState<number | undefined>();
+    // Get Year
+  const getYear = () => setDate(new Date().getFullYear());
+  
 
   class Check {
 
@@ -119,7 +123,9 @@ const GlobalProvider = ({children}: GlobalProviderTypes ) => {
     check,
     name,
     email,
-    message
+    message,
+    getYear,
+    date
   }
 
   return (

@@ -25,4 +25,6 @@ export type ContextProps = {
   check: InstanceType
   setMenuBtn: React.Dispatch<React.SetStateAction<boolean>>;
   handleClose: React.Dispatch<React.SetStateAction<boolean>>;
+  getYear: () => void;
+  date: number | undefined;
 }

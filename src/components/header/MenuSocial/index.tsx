@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
+import { GlobalContext } from '@context/GlobalContext';
 import { MenuSocialDiv, ContainerHeader } from "./styles";
+import { ContextProps } from "@context/types";
 
 const MenuSocial = (): JSX.Element => {
 
-  const [date, setDate] = useState<number | undefined>();
-  // Get Year
-  const getYear = () => setDate(new Date().getFullYear());
+  const { getYear, date } = useContext<ContextProps>(GlobalContext);
   // Render
   useEffect(() => {
     getYear();

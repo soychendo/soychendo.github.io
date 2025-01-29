@@ -1,7 +1,16 @@
-import React from "react"
+import React, { useContext, useEffect } from "react"
+import { GlobalContext } from "@context/GlobalContext"
 import { Bartitle } from "@components/Bartitle";
+import { ContextProps } from "@context/types";
 
 const About = (): JSX.Element => {
+  const { getYear, date } = useContext<ContextProps>(GlobalContext);
+
+   // Render
+    useEffect(() => {
+      getYear();
+    }, [])
+  
 
   const about = "Sobre Mi";
 
@@ -21,7 +30,7 @@ const About = (): JSX.Element => {
       <div className="col-md-6 pd-l">
         <div className="col-content">
           <span>Quien soy...</span>
-          <p>Mi nombre real es Jorge, pero todos me conocen como Chendo… Tengo 35 años. Nací el 19 de enero de 1990 en la mitad del mundo, Ecuador.</p>
+          <p>Mi nombre real es Jorge, pero todos me conocen como Chendo… Tengo {date! - 1990} años. Nací el 19 de enero de 1990 en la mitad del mundo, Ecuador.</p>
           <p>Mis colores favoritos  son: rojo y negro. Número de la suerte, 7. Signo Capricornio.</p>
           <p>Sin duda alguna, si hay algo que disfruto tanto. es ponerme el casco, subirme a mi moto y olvidarme de los problemas.
               Viajar, conocer a buenas personas, y poner en papel lo que siento.</p>
