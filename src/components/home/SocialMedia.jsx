@@ -30,7 +30,7 @@ const SocialMedia = () => {
               <a href="https://tiktok.com/@soychendoo" aria-label="tiktok" target="_blank"><i className="fab fa-tiktok icono"></i></a>
             </div>
             <div className="cirdown">
-              <a href="https://codepen.io/soychendo" aria-label="codepen" target="_blank"><i className="fab fa-codepen icono"></i></a>
+              <a href="https://enchufevirtual.com/" aria-label="codepen" target="_blank"><i className="fab fa-codepen icono"></i></a>
             </div>
           </div>
         </div>
