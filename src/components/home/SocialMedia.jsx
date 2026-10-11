@@ -22,12 +22,12 @@ const SocialMedia = () => {
               <a href="https://github.com/soychendo" aria-label="github" target="_blank"><i className="fab fa-github-alt icono"></i></a>
             </div>
             <div className="cirdown">
-              <a href="https://facebook.com/enchufevirtual" aria-label="facebook" target="_blank"><i className="fab fa-facebook-f icono"></i></a>
+              <a href="https://facebook.com/soychendo" aria-label="facebook" target="_blank"><i className="fab fa-facebook-f icono"></i></a>
             </div>
           </div>
           <div className="content-bottom-icon mb-4">
             <div className="cirdown">
-              <a href="https://tiktok.com/@soychendo.com" aria-label="tiktok" target="_blank"><i className="fab fa-tiktok icono"></i></a>
+              <a href="https://tiktok.com/@soychendoo" aria-label="tiktok" target="_blank"><i className="fab fa-tiktok icono"></i></a>
             </div>
             <div className="cirdown">
               <a href="https://codepen.io/soychendo" aria-label="codepen" target="_blank"><i className="fab fa-codepen icono"></i></a>

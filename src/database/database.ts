@@ -20,7 +20,7 @@ export const database: DataBase[] = [
       'Este proyecto Open Source es una aplicación para disfrutar de la mejor música del momento y conectar con personas de diferentes partes del mundo a través de un chat integrado.',
     image: 'radioev.jpg',
     source: 'https://github.com/orgs/enchufevirtual/repositories',
-    demo: 'https://github.com/orgs/enchufevirtual/repositories',
+    demo: 'https://radio.enchufevirtual.com/',
     id: 1,
   },
   {
@@ -108,7 +108,7 @@ export const database: DataBase[] = [
       'Espacio creado para compartir proyectos de código abierto, llevando el conocimiento a otro nivel.',
     image: 'enchufevirtual.jpg',
     source: 'https://github.com/orgs/enchufevirtual/repositories',
-    demo: 'https://github.com/orgs/enchufevirtual/repositories',
+    demo: 'https://enchufevirtual.com/',
     id: 4,
   },
   {
@@ -134,7 +134,7 @@ export const database: DataBase[] = [
       'Calculadora científica, construida con Html, Css y JavaScript, uso intermedio.',
     image: 'chendocalc.jpg',
     source: 'https://github.com/soychendo/chendocalc',
-    demo: 'https://github.com/soychendo/chendocalc',
+    demo: 'https://soychendo.com/chendocalc/',
     id: 5,
   },
   {
